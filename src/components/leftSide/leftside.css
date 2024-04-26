@@ -1,0 +1,30 @@
+.left-side {
+  width: 50%;
+}
+
+.perfume-img-desktop {
+  width: 100%;
+  border-radius: 10px 0px 0px 10px;
+  height: 100%;
+}
+
+.perfume-img-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  .left-side {
+    width: 100%;
+  }
+
+  .perfume-img-desktop {
+    display: none;
+  }
+
+  .perfume-img-mobile {
+    display: block;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    height: 240px;
+  }
+}
